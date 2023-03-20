@@ -8,7 +8,7 @@
  *Return: Alwyas 0.
  */
 int main(void)
-{	
+{
 	int n;
 	int m;
 
