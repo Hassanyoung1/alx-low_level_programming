@@ -20,23 +20,18 @@ int main(int argc, char *argv[])
 	}
 
 	amount = atoi(argv[1]);
+	coins += amount / 25;
 
-	coins += amount / 25; /* Number of quarters */
-	amount %= 25;         /* Remainder after quarters */
+	amount %= 25;
+	coins += amount / 10;
+	amount %= 10;
 
-	coins += amount / 10; /* Number of dimes */
-	amount %= 10;         /* Remainder after dimes */
+	coins += amount / 5;
+	amount %= 5;
 
-	coins += amount / 5;  /* Number of nickels */
-	amount %= 5;          /* Remainder after nickels */
-
-	coins += amount / 2;  /* Number of pennies (2 cents) */
-	amount %= 2;          /* Remainder after pennies */
-
-	coins += amount;      /* Any remaining pennies (1 cent) */
-
+	coins += amount / 2;
+	amount %= 2;
 	printf("%d\n", coins);
-
 	return (0);
 }
 
