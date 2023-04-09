@@ -11,7 +11,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int amount, coins = 0;
+	int amount;
+
+	int coins = 0;
 
 	if (argc != 2)
 	{
@@ -21,17 +23,14 @@ int main(int argc, char *argv[])
 
 	amount = atoi(argv[1]);
 	coins += amount / 25;
-
 	amount %= 25;
 	coins += amount / 10;
 	amount %= 10;
-
 	coins += amount / 5;
 	amount %= 5;
-
 	coins += amount / 2;
 	amount %= 2;
+	coins += amount;
 	printf("%d\n", coins);
 	return (0);
 }
-
