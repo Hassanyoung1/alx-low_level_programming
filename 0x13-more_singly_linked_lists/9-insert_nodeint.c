@@ -20,11 +20,9 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx != 0)
 	{
 		tmp = *head;
-		b = 0;
-		while (b < idx - 1 && tmp != NULL)
+		for ( ; b < idx - 1 && tmp != NULL; b++)
 		{
 			tmp = tmp->next;
-			b++;
 		}
 		if (tmp == NULL)
 		{
