@@ -21,7 +21,7 @@ listint_t *find_listint_loop(listint_t *head)
 		slo = slo->next;
 		if (quick == slo)
 		{
-			for  (slo = head; slow != quick; )
+			for  (slo = head; slo != quick; )
 			{
 				slo = slo->next;
 				quick = quick->next;
