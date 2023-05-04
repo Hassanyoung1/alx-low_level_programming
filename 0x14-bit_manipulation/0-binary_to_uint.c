@@ -18,13 +18,12 @@ unsigned int binary_to_uint(const char *b)
 	a = 0;
 	while (b[a])
 	{
-		a++;
 		if (b[a] < '0' || b[a] > '1')
 		{
 			return (0);
 		}
 		deci_value = 2 * deci_value + (b[a] - '0');
+		a++;
 	}
-
 	return (deci_value);
 }
