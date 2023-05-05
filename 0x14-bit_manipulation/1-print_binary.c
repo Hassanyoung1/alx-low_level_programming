@@ -6,14 +6,14 @@
  */
 void print_binary(unsigned long int n)
 {
-	int a = 63;
+	int a;
 	int num  = 0;
 	unsigned long int present;
 
-	for ( ; a >= 0; a--)
+	for (a = 0 ; a >= 0; a--)
 	{
 		present = n >> a;
-		
+
 		if (present & 1)
 		{
 			_putchar('1');
