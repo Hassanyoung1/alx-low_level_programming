@@ -6,11 +6,11 @@
  */
 void print_binary(unsigned long int n)
 {
-	int a;
+	int a = 63;
 	int num  = 0;
 	unsigned long int present;
 
-	for (a = 0 ; a >= 0; a--)
+	for ( ; a >= 0; a--)
 	{
 		present = n >> a;
 
@@ -23,7 +23,7 @@ void print_binary(unsigned long int n)
 		{
 			_putchar('0');
 		}
-		a++;
+
 	}
 	if (!num)
 	{
