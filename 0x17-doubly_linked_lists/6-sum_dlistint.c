@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * sum_dlistint - Sums all the data (n) of a dlistint_t linked list.
  *
