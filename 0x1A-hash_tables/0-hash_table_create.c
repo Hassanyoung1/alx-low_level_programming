@@ -17,10 +17,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	}
 	/** Declare the  Linglist of an hashtable **/
-	hash_table->array = malloc(sizeof(hash_node_t *) * size);
+	hash_table->array = calloc(size, sizeof(hash_node_t *));	
 	if (hash_table->array == NULL)
 	{
-		free(hash_table);
+		/**free(hash_table);**/
 		return (NULL);
 	}
 	/** Loop through the table **/
@@ -28,6 +28,5 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		hash_table->array[i] = NULL;
 	}
-/**	hash_table->array = size;**/
 	return (hash_table);
 }
