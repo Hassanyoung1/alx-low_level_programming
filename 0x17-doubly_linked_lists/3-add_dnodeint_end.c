@@ -15,7 +15,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new_node = malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	/** Initialize the new node **/
@@ -23,11 +23,11 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new_node->next = NULL;
 
 	/* If the list is empty the new node becomes the head */
-	if (*head == NULL) 
+	if (*head == NULL)
 	{
 		new_node->prev = NULL;
 		*head = new_node;
-		return new_node;
+		return (new_node);
 	}
 
 	/* Tranverse to the end of the list */
@@ -40,5 +40,5 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	current->next = new_node;
 	new_node->prev = current;
-	return new_node;
+	return (new_node);
 }
