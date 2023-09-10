@@ -9,11 +9,11 @@
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-    unsigned long int hash_value;
+	unsigned long int hash_value;
 
-    /* Use the hash_djb2 function to compute the hash value */
-    hash_value = hash_djb2(key);
+	/* Use the hash_djb2 function to compute the hash value */
+	hash_value = hash_djb2(key);
 
-    /* Calculate the index by taking the remainder of hash_value and size */
-    return (hash_value % size);
+	/* Calculate the index by taking the remainder of hash_value and size */
+	return (hash_value % size);
 }
