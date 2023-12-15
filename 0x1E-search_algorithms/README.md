@@ -1,6 +1,8 @@
 # C - Search Algorithms
+##  C  Algorithm
 
 ## Resources
+
 ## Read or watch:
 
 **Search algorithm
