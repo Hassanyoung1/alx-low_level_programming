@@ -1,46 +1,47 @@
-0x04. C - More functions, more nested loops
+# 0x04. C - More functions, more nested loops
+# C Debugging
 
-TASKS:
+ # Project over - took place from May 23, 2023 3:00 PM to May 26, 2023 3:00 PM
+<div class="panel panel-default" id="project-description">
+  <div class="panel-body">
+    <h2>Resources</h2>
 
-Write a function that checks for uppercase character.
+<p><strong>Read or watch:</strong></p>
 
-Prototype: int _isupper(int c);
-Returns 1 if c is uppercase
-Returns 0 otherwise
-FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
+<ul>
+<li><a href="/rltoken/faGcpiJiejHH6GhqpmbhUw" title="Debugging" target="_blank">Debugging</a></li>
+<li><a href="/rltoken/RaecqJBNkmZ92vLMpNDuGg" title="Rubber Duck Debugging" target="_blank">Rubber Duck Debugging</a></li>
+</ul>
 
-1. isdigit
+<p>Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as <code>gdb</code> or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.</p>
 
-Write a function that checks for a digit (0 through 9).
+<p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240301%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240301T131345Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=53590e6fd2b6bb7a42db7b8874e39de0e33650870e3372522ca9ecfdc176664c" alt="" loading="lazy" style=""></p>
 
-Prototype: int _isdigit(int c);
-Returns 1 if c is a digit
-Returns 0 otherwise
+<h2>Learning Objectives</h2>
 
-2. Collaboration is multiplication
+<p>At the end of this project, you are expected to be able to <a href="/rltoken/b8uX1nIy0A55tWVlIRTaHQ" title="explain to anyone" target="_blank">explain to anyone</a>, without the help of Google:</p>
 
-Write a function that multiplies two integers.
+<h3>General</h3>
 
-Prototype: int mul(int a, int b);
-
-3. The numbers speak for themselves
-
-Write a function that prints the numbers, from 0 to 9, followed by a new line.
-
-Prototype: void print_numbers(void);
-You can only use _putchar twice in your code
-
-4. I believe in numbers and signsWrite a function that prints the numbers, from 0 to 9, followed by a new line.
-
-Prototype: void print_most_numbers(void);
-Do not print 2 and 4
-You can only use _putchar twice in your code
-
-5. Numbers constitute the only universal language
-
-Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
-
-Prototype: void more_numbers(void);
-You can only use _putchar three times in your code
+<ul>
+<li>What is debugging</li>
+<li>What are some methods of debugging manually</li>
+<li>How to read the error messages</li>
+</ul>
 
 
+<h2>Requirements</h2>
+
+<h3>General</h3>
+
+<ul>
+<li>Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code></li>
+<li>All your files will be compiled on Ubuntu 20.04 LTS using <code>gcc</code>, using the options <code>-Wall -Werror -Wextra -pedantic -std=gnu89</code></li>
+<li>All your files should end with a new line</li>
+<li>Your code should use the <code>Betty</code> style. It will be checked using <code>betty-style.pl</code> and <code>betty-doc.pl</code></li>
+<li>A README.md file at the root of the repo, containing a description of the repository</li>
+<li>A README.md file, at the root of the folder of this project (i.e. <code>0x03-debugging</code>), describing what this project is about</li>
+</ul>
+
+  </div>
+</div>
