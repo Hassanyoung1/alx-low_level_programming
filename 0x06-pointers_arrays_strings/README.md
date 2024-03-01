@@ -1,43 +1,38 @@
-# 0x04. C - More functions, more nested loops
+# 0x06. C - More pointers, arrays and strings
 # C
 
- # Project over - took place from May 25, 2023 3:00 PM to May 26, 2023 3:00 PM
+ #  Project over - took place from May 31, 2023 3:00 PM to Jun 2, 2023 3:00 PM
 
- <div class="panel panel-default" id="project-description">
+
+
+
+ 
+
+
+<div class="panel panel-default" id="project-description">
   <div class="panel-body">
-    <h2>Resources</h2>
+    <p><img src="/images/contents/low_level_programming/projects/happy-clapping.gif" alt="" loading="lazy" style=""></p>
 
-<p><strong>Read or watch</strong>:</p>
-
-<ul>
-<li><a href="/rltoken/aDRkFzUkVysnD94Dpm3w5g" title="Nested while loops" target="_blank">Nested while loops</a> </li>
-<li><a href="/rltoken/zf4IZeoe0yFZL2X7_nznQQ" title="C - Functions" target="_blank">C - Functions</a> </li>
-<li><a href="/rltoken/iQ87CI4Lf41U_uRh9QsoQA" title="Learning to Program in C (Part 06)" target="_blank">Learning to Program in C (Part 06)</a> (<em>stop at 14:00</em>)</li>
-<li><a href="/rltoken/pUXhvD6-xl5BbWyj1AhCEA" title="What is the purpose of a function prototype?" target="_blank">What is the purpose of a function prototype?</a> </li>
-<li><a href="/rltoken/IFY075ffrszSJvHqPAa-zQ" title="C - Header Files" target="_blank">C - Header Files</a> (<em>stop before the “Once-Only Headers” paragraph</em>)</li>
-</ul>
-
-<h2>Additional Resources</h2>
+<h2>Additional Resource</h2>
 
 <ul>
-<li><a href="/rltoken/RjdaBSB3mRcEE82aWOzkWw" title="Functions in C programming" target="_blank">Functions in C programming</a></li>
+<li><a href="/rltoken/4TnYEfUOoosQdanEYnX8Vw" title="Practical Use of Pointers in C Programming" target="_blank">Practical Use of Pointers in C Programming</a></li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/Ya6FG69nkA7hRf_WG4E8gQ" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="/rltoken/tkwwPs3MT3JT07FSsmXy-A" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
 <ul>
-<li>What are nested loops and how to use them</li>
-<li>What is a function and how do you use functions</li>
-<li>What is the difference between a declaration and a definition of a function</li>
-<li>What is a prototype</li>
+<li>What are pointers and how to use them</li>
+<li>What are arrays and how to use them</li>
+<li>What are the differences between pointers and arrays</li>
+<li>How to use strings and how to manipulate them</li>
 <li>Scope of variables</li>
-<li>What are the <code>gcc</code> flags <code>-Wall -Werror -pedantic -Wextra -std=gnu89</code></li>
-<li>What are header files and how to to use them with <code>#include</code></li>
 </ul>
+
 
 
 <h2>Requirements</h2>
@@ -59,10 +54,6 @@
 <li>The prototypes of all your functions and the prototype of the function <code>_putchar</code> should be included in your header file called <code>main.h</code></li>
 <li>Don’t forget to push your header file</li>
 </ul>
-
-<h2>More Info</h2>
-
-<p>You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.</p>
 
   </div>
 </div>
